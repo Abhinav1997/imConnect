@@ -1,0 +1,56 @@
+body {
+  color: #fff;
+}
+#desc {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 500;
+}
+.mdl-layout__header-row {
+  padding: 0px 40px 0px 40px;
+}
+.main-padding {
+  padding: 40px;
+}
+.set-card-wide.mdl-card {
+  width: 512px;
+  background-color: #455A64;
+  float: left;
+  margin: 2rem;
+  position: relative;
+}
+.set-card-wide.mdl-card:hover {
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+}
+.set-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+}
+.set-card-wide > .mdl-card__supporting-text {
+  color: #fff;
+  opacity: 0.7;
+}
+.set-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+.fb-card > .mdl-card__title {
+  background: url('../img/backdrop_facebook.png') center / cover;
+}
+.tg-card > .mdl-card__title {
+  background: url('../img/backdrop_telegram.png') center / cover;
+}
+.wa-card > .mdl-card__title {
+  background: url('../img/backdrop_whatsapp.png') center / cover;
+}
+.card-switch {
+  padding: 10px;
+}
+.mdl-switch__ripple-container .mdl-ripple {
+  background: #FFEB3B;
+}
+.mdl-switch.is-checked .mdl-switch__track {
+    background: rgba(255, 235, 59,.5);
+}
+.mdl-switch.is-checked .mdl-switch__thumb {
+    background: #FFEB3B;
+}

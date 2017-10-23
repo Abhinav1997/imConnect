@@ -1,0 +1,65 @@
+{
+    "manifest_version":1,
+    "name":"IM Connect",
+    "version":"0.1",
+    "description":"IM Connect shows notification for various IM services and also provides easy toggles for them.",
+    "icons":{
+        "16":"img/icon_16.png",
+        "32":"img/icon_32.png",
+        "48":"img/icon_48.png",
+        "64":"img/icon_64.png",
+        "96":"img/icon_96.png",
+        "128":"img/icon_128.png"
+    },
+    "options_ui": {
+        "page": "options_ui.html",
+        "open_in_tab": true
+    },
+    "permissions":[
+        "storage",
+        "tabs"
+    ],
+    "commands":{
+        "wa-shortcut":{
+            "suggested_key":{
+                "default":"Alt+W"
+            },
+            "description":"Opens WhatsApp Web"
+        },
+        "fb-shortcut":{
+            "suggested_key":{
+                "default":"Alt+M"
+            },
+            "description":"Opens Facebook Messenger"
+        },
+        "tg-shortcut":{
+            "suggested_key":{
+                "default":"Alt+L"
+            },
+            "description":"Opens Telegram Web"
+        }
+    },
+    "background":{
+        "scripts":[
+            "js/bg_variables.js",
+            "js/bg_facebook.js",
+            "js/bg_telegram.js",
+            "js/bg_whatsapp.js",
+            "js/background.js"
+        ]
+    },
+    "browser_action":{
+        "default_icon":{
+            "16":"img/icon_16.png",
+            "32":"img/icon_32.png",
+            "48":"img/icon_48.png",
+            "64":"img/icon_64.png",
+            "96":"img/icon_96.png",
+            "128":"img/icon_128.png"
+        },
+        "default_title":"IM Connect"
+    },
+    "web_accessible_resources":[
+        "img/*"
+    ]
+}

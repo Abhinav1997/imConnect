@@ -1,0 +1,11 @@
+imConnect
+=========
+
+Firefox add-on for showing notifications for various IM apps and also providing an easy toggle for them.
+
+
+Supported apps
+--------------
+- WhatsApp
+- Telegram
+- Messenger

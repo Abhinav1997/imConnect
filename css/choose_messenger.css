@@ -1,0 +1,52 @@
+html,
+body {
+    background: #263238;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#facebook {
+    display: none;
+}
+#facebook-icon {
+    display: none;
+}
+#telegram {
+    display: none;
+}
+#telegram-icon {
+    display: none;
+}
+#whatsapp {
+    display: none;
+}
+#whatsapp-icon {
+    display: none;
+}
+.item {
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin: 7px;
+}
+.notify-badge {
+    display: none;
+    position: absolute;
+    right: -13px;
+    top: -3px;
+    background: red;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    padding: 3px 6px;
+    font-size: 12px;
+}
+#settings {
+    position: relative;
+    cursor: pointer;
+    float: right;
+    margin: 0px 0px 0px 12px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>IM Connect - Settings</title>
+
+    <link rel="stylesheet" href="css/material.min.css">
+    <link rel="stylesheet" href="css/options_ui.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout	 mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-color--blue-grey-900 mdl-color-text--white">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">
+			<!-- <i class="material-icons">settings</i> -->
+			<strong>IM Connect</strong> - Settings
+		  </span>
+            </div>
+        </header>
+
+        <main class="mdl-layout__content mdl-color--blue-grey-800 main-padding">
+
+            <p id="desc">Enable/Disable applications according to your use</p>
+
+            <!-- Facebook card -->
+            <div class="set-card-wide fb-card mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Facebook<br />Messenger</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    You can toggle Facebook Messenger using Alt+M when enabled.
+                </div>
+                <!--<div class="mdl-card__actions mdl-card--border">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+              Get Started
+            </a>
+          </div> -->
+                <div class="mdl-card__menu">
+                    <label class="card-switch mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-fb">
+                        <input type="checkbox" id="switch-fb" class="mdl-switch__input">
+                        <span class="mdl-switch__label"></span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- WhatsApp card -->
+            <div class="set-card-wide wa-card mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">WhatsApp</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    You can toggle WhatsApp using Alt+W when enabled.
+                </div>
+                <!--<div class="mdl-card__actions mdl-card--border">
+		    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+		      Get Started
+		    </a>
+		  </div> -->
+                <div class="mdl-card__menu">
+                    <label class="card-switch mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-wa">
+                        <input type="checkbox" id="switch-wa" class="mdl-switch__input">
+                        <span class="mdl-switch__label"></span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Telegram card -->
+            <div class="set-card-wide tg-card mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Telegram</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    You can toggle Telegram using Alt+L when enabled.
+                </div>
+                <!--<div class="mdl-card__actions mdl-card--border">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+              Get Started
+            </a>
+          </div> -->
+                <div class="mdl-card__menu">
+                    <label class="card-switch mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-tg">
+                        <input type="checkbox" id="switch-tg" class="mdl-switch__input">
+                        <span class="mdl-switch__label"></span>
+                    </label>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="js/material.min.js"></script>
+    <script src="js/options_ui.js"></script>
+</body>
+
+</html>
